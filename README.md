@@ -102,21 +102,24 @@ Production-ready for static hosting:
 ## 🤖 LLM/AI Usage  
 
 During development, multiple AI tools were used for ideation, code assistance, and UI polish:  
-
 - **Claude 3.5 Sonnet** – Helped structure API integration and suggest data models  
 - **ChatGPT (GPT-5)** – Provided UI/UX suggestions, React hook patterns, and debugging help  
 - **Qoder** – Assisted in auto-generating TypeScript types from API responses  
 - **Cursor** – Streamlined pair-programming experience, especially for refactoring components  
 
-### Example Prompts Used  
+---
 
+## Example Prompts Used  
+
+### UI / UX & Features  
 - “Suggest a React component structure for displaying professional profiles in a grid with filters.”  
 - “Generate a responsive Tailwind layout with a floating action button and expandable menu.”  
-- “What’s the best way to implement debounced search with Axios in React + Vite?”  
-- “Design a clean chart layout to visualize top 5 trending skills using Recharts.”  
-- “Help debug a CORS issue when fetching Torre API data in development.”  
-- “Show an example of error handling UI when the API returns no results.”  
-- “Optimize lazy loading in Vite so that large profile datasets don’t slow down initial load.”  
+- “Best way to implement debounced search with Axios in React + Vite?”  
+
+### Debugging & Significant Bugs  
+- “React app crashes with ‘Too many re-renders’ when I update filters — what am I doing wrong?”  
+- “Pagination stops working after page 3 — API returns results but UI doesn’t update. Debug?”  
+- “Skill chart component breaks with error `Cannot read property 'map' of undefined` when API response is delayed.”   
 
 ---
 
