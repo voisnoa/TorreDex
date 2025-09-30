@@ -2,6 +2,8 @@
 
 A modern React application inspired by the **Pokédex**, built to explore Torre’s professional network. Search, analyze, and discover talent in a fun, interactive way.  
 
+🔗 **Live Demo**: [https://torre-dex.vercel.app/](https://torre-dex.vercel.app/)  
+
 ## 🚀 Features  
 
 - **Real-time Search** – Quickly find professionals across Torre’s network  
