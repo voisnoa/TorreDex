@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import SearchBar from '../components/SearchBar';
 import SearchResults from '../components/SearchResults';
 import GenomePage from './GenomePage';
-import FloatingActionButton from '../components/FloatingActionButton';
 import ComparisonView from '../components/ComparisonView';
 import RecommendationsView from '../components/RecommendationsView';
 import { ComparisonPanel } from '../components/ComparisonButton.jsx';
@@ -342,15 +341,7 @@ const SearchPage = () => {
 
       {/* User Profile Modal */}
       {/* Floating Action Button */}
-      <FloatingActionButton
-        onScrollToTop={scrollToTop}
-        onRefresh={handleRefresh}
-        onExport={handleExport}
-        onShare={handleShare}
-        showScrollToTop={showScrollToTop}
-        hasResults={results.length > 0}
-      />
-
+      
       {/* Comparison Panel - only show on search tab */}
       {activeTab === 'search' && (
         <ComparisonPanel onNavigateToCompare={() => setActiveTab('compare')} />
